@@ -1,0 +1,57 @@
+REACT JS   - Frontend
+    - SPA (Single Page Application)
+    - VDOM(Virtual Document Object Model) : Diffy's Algorithm
+    - React only run on Port number 3000
+
+    Installation Steps
+        1. select a folder in your system.
+            note:- a. Do not select a folder in your program files.
+                   b. Do not select within the backend folder.
+
+        2. Create a folder with a name.
+        3. Inside the folder:
+            -> On the URL/ or the address bar type upon CMD.
+                                OR 
+            -> select that folder in VScode.
+            -> Then start the Terminal. 
+        
+        4. Type upon.
+            -> npm install create-react-app -g
+            -> npx crate-react-app <project_name>
+
+    Lifecycle of REACT JS: 3 phase
+        1. Mounting Phaase: Initail mount to the Document
+                > Contructors
+                > Render
+                > ComponentDidMount - Calling of the APIs to bind the data
+
+        2. Updating Phase: User Interaction
+                > Render
+
+        3. Unmounting Phase: Component gets unmounted from the Document
+                > ComponentDidMount - Store the data at Local Storage os Session Storage
+
+    create-react-app 
+
+    THings to check while converting HTML page to REACT:
+        -> Comments in HTML <!-- --> needs to be changed by {/* */}
+        -> In react all tags must be closed. (in case of self closing tags must be closed like -> <img/> )
+        -> In react inline style needs to be writen inside {{ }}
+        -> In HTML class needs to be replaced by className.
+        -> In react all variables are written inside " " - double quote.
+
+
+    REACTProctect_folder
+        Public
+            index.HTML
+        Src
+            PAGES_Folder
+                HomePage.js
+            index.js
+To connect the db to the react 
+    -> install npm i axios:- Axios helps in connecting to the APIs.
+    -> import it in the hoome.js file.
+
+To connect the filterPage(other pages to the Home page)
+    -> install react-router-dom 
+            -> npm i react-router-dom

@@ -1,0 +1,42 @@
+To initiate the package.json and install express, nodemon and mongoose
+        -> npm init
+    Followed by :- installing the package
+        -> npm i express nodemon mongoose
+    Initiate the App.js to run itself:- insert in the package.json file under "Scripts"
+        -> "start": "nodemon app.js"
+    Start in the Terminal:-
+        -> npm run start
+
+
+
+
+List of APIs in Zomato clone project
+
+    Home Page:
+        -> get Location
+        -> get restaurantByLocation
+        -> post login
+        -> post signup
+        -> get mealtypes
+
+    Filter Page: 7APIs
+        -> post Location
+        -> post cuisine
+        -> post cost
+            - lower cost
+            - upper cost
+        -> post sort
+        -> post Page
+        -> get mealtypesById
+
+    Restaurant Details Page:
+        -> get MenuByRestaurantId
+        -> get RestaurantById
+
+        -> post user Details 
+        -> post orderDetails
+
+        -> post PaymentGateway (RazorPay)
+
+        -> OrderByUser
+        -> orderdetailssByRestaurantId
